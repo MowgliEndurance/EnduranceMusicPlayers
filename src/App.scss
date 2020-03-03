@@ -1,0 +1,114 @@
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+iframe {
+  width: 100%
+}
+
+.secondary-text {
+  font-size: 14px;
+}
+
+.select-prompt {
+  margin-top: 200px;
+}
+
+.dummy-player {
+  height: 300px;
+  width: 300px;
+  border-style: dashed;
+  border-color: gray;
+  border-width: 1px;
+  margin-left: 25%;
+
+  .dummy-player-text {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 48%;
+  }
+}
+
+.back-button {
+  height: 40px;
+}
+
+.select-logos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  margin-top: 243px;
+  margin-bottom: -200px;
+  margin-right: auto; 
+}
+
+.grid-item {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 5%;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  height: 700px;
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+
+  .left {
+    width: 40%;
+  }
+
+  .right {
+    width: 60%;
+  }
+
+  .logo {
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-item-stack {
+    display: grid;
+  }
+
+  .player {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.link-buttons {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+input {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 7px;
+  margin:0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;  
+  width: 420px;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+}
